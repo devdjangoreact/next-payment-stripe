@@ -25,7 +25,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Docs <span>-&gt;</span>
             </h2>
-            <Image src="/images/book.png" width={200} height={300} />
+            <Image src="/images/book.png" alt="book" width={200} height={300} />
           </a>
         </div>
         <div className={styles.grid}>
@@ -38,7 +38,12 @@ export default function Home() {
             <h2 className={inter.className}>
               Docs <span>-&gt;</span>
             </h2>
-            <Image src="/images/the-book.png" width={200} height={300} />
+            <Image
+              src={"/images/the-book.png"}
+              alt="the-book"
+              width={200}
+              height={300}
+            />
           </a>
         </div>
       </main>
